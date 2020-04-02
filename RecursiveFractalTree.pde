@@ -19,7 +19,7 @@ void draw() {
 }
 void branch(float len) {
   line(0, 0, 0, -len);
-  if(len > 1) {
+  if(len > 5) {
     pushMatrix();
     translate(0, -len);
     rotate(angle);
